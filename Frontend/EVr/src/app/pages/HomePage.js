@@ -45,9 +45,9 @@ const HomePage = () => {
       <ServicesCarousel />
       <SupportedCompanies />
       <Solutions />
-      <ReviewCarousel />
       <SuccessStories />
       <LatestUpdates />
+      <ReviewCarousel />
       <Footer />
     </div>
   );
