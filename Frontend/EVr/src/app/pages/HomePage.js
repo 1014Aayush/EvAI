@@ -5,8 +5,7 @@ import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Navbar from './Navbar';
 import ServicesCarousel from './Services';
-import ProductGrid from './Products';
-import SolutionsGrid from './Solutions';
+import Solutions from './Solutions';
 import ReviewCarousel from './Reviews';
 import SuccessStories from './SuccessStories';
 import LatestUpdates from './Updates';
@@ -45,8 +44,7 @@ const HomePage = () => {
       <Navbar />
       <ServicesCarousel />
       <SupportedCompanies />
-      <ProductGrid />
-      <SolutionsGrid />
+      <Solutions />
       <ReviewCarousel />
       <SuccessStories />
       <LatestUpdates />
